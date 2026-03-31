@@ -1,0 +1,1 @@
+Come out to club practices and events. Before each practice, please sign up in advance [__here__](https://linktr.ee/ua_tkd).

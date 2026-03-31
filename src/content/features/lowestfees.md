@@ -1,0 +1,1 @@
+Our emphasis on community is reflected in our membership costs, and there are no additional fees nor any equipment or uniforms to purchase. Our goal is not to make money, but rather to have a large community of great people who all strive for athletic improvement. All of the fees goes back into club operations.

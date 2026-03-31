@@ -1,0 +1,1 @@
+If you decide to join the club, pay the club fees.

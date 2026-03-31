@@ -1,0 +1,1 @@
+Our practices are beginner-friendly. The club is the first experience with martial arts for many of our members.

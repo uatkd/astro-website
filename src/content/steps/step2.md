@@ -1,0 +1,1 @@
+All important announcements are sent via email. Find our social medias and mailing list sign up [__here__](https://linktr.ee/ua_tkd).

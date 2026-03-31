@@ -1,0 +1,1 @@
+Our love for regular social events is one of the many reasons that our community is so tightly knit. We host a range of events, from hangouts that are planned in advance to social outings that are held spontaneously after practice. All members are invited to these events and should be prepared to make many new friends through different activities.
