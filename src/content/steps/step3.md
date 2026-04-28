@@ -1,1 +1,1 @@
-Come out to club practices and events. Before each practice, please sign up in advance [__here__](https://linktr.ee/ua_tkd).
+Come out to club practices and events. Before each practice, please sign up in advance <a href="https://linktr.ee/ua_tkd" class="text-blue-500 underline hover:text-blue-700">here</a>.

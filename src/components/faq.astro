@@ -1,10 +1,12 @@
 ---
 import { Accordion, AccordionItem } from 'free-astro-components'
+import { Icon } from 'astro-icon/components';
 ---
 
-<div class="p-45">
-    <div class="text-center">
-        <h2 class="text-4xl font-semibold tracking-tight text-balance">
+<section id="faq" class="py-16 sm:py-24">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-semibold tracking-tight text-balance text-amber-400">
             Frequently Asked Questions
         </h2>
     </div>
@@ -70,4 +72,13 @@ import { Accordion, AccordionItem } from 'free-astro-components'
         </p>
     </AccordionItem>
     </Accordion>
-</div>
+  </div>
+  <div class="text-center mt-24">
+    <h2 class="text-4xl font-bold text-gray-800 mb-8">Have any questions?</h2>
+
+    <a href="mailto:crtkd@ualberta.ca" class="inline-flex items-center gap-3 px-8 py-4 rounded-xl border border-amber-200 text-amber-400 hover:bg-amber-50 transition-colors text-lg font-medium">
+      <Icon name="email" class="w-8 h-8" />
+      Email us at crtkd@ualberta.ca
+    </a>
+  </div>
+</section>

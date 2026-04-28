@@ -1,0 +1,24 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+interface Props {
+  images: ImageMetadata[];
+}
+
+const { images } = Astro.props as Props;
+---
+
+<script src="../scripts/carousel.js"></script>
+
+<div class="carousel" data-carousel>
+    <button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
+    <button class="carousel-button next" data-carousel-button="next">&#8594;</button>
+    <ul data-slides>
+        {images.map((img, index) => (
+            <li class="slide" data-active={index === 0 ? true : undefined}>
+                <Image src={img} alt={`image ${index + 1}`} />
+            </li>
+        ))}
+    </ul>
+</div>
