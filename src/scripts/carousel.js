@@ -1,19 +1,17 @@
 document.querySelectorAll("[data-carousel]").forEach(carousel => {
-  const buttons = carousel.querySelectorAll("[data-carousel-button]");
+  const slides = carousel.querySelector("[data-slides]");
 
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      const offset = button.dataset.carouselButton === "next" ? 1 : -1;
-      const slides = carousel.querySelector("[data-slides]");
-      const activeSlide = slides.querySelector("[data-active]");
+  function getActiveIndex() {
+    return [...slides.children].indexOf(slides.querySelector("[data-active]"));
+  }
 
-      let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+  function goTo(index) {
+    const activeSlide = slides.querySelector("[data-active]");
+    if (index < 0) index = slides.children.length - 1;
+    if (index >= slides.children.length) index = 0;
+    slides.children[index].dataset.active = true;
+    activeSlide.removeAttribute("data-active");
+  }
 
-      if (newIndex < 0) newIndex = slides.children.length - 1;
-      if (newIndex >= slides.children.length) newIndex = 0;
-
-      slides.children[newIndex].dataset.active = true;
-      activeSlide.removeAttribute("data-active");
-    });
-  });
+  setInterval(() => goTo(getActiveIndex() + 1), 4000);
 });
